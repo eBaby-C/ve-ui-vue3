@@ -1,1 +1,0 @@
-import {useStars} from './useStars';
