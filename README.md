@@ -1,19 +1,5 @@
 # js-ui-vue3
 
-## Project setup
-```
-npm install
-```
+组件
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. 思考一个组件的所有配置

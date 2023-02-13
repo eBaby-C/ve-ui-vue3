@@ -1,24 +1,26 @@
 <template>
-  <Stars :default-num="starNum" :size="size" @getStarNum="getStarNum" />
+  <div>
+    <Stars
+      :num="starState.num"
+      :size="starState.size"
+      @getStarNum="getStarNum"
+    />
+  </div>
 </template>
 
-<script>
+<script setup>
+import { reactive } from 'vue';
 
-export default {
-  name: 'App',
-  setup() {
-    const getStarNum = (num) => {
 
-    }
+  const getStarNum = n => console.log(n);
 
-    return {
-      getStarNum
-    }
-  },
-
-}
+  const starState = reactive({
+    num: 3,
+    size: 40
+  })
+  
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 </style>
