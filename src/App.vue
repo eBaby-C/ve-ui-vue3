@@ -11,7 +11,6 @@
 <script setup>
 import { reactive } from 'vue';
 
-
   const getStarNum = n => console.log(n);
 
   const starState = reactive({

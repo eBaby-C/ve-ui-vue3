@@ -1,1 +1,6 @@
-export {useStars} from './useStars'
+import { useStars } from "./useStars";
+
+
+export {
+  useStars
+}
